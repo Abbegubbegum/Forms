@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 10vh 1fr 10vh;
+}
+
+header {
+  color: #222222;
+  display: grid;
+  place-items: center;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    24deg,
+    rgba(131, 58, 180, 1) 7%,
+    rgba(253, 29, 29, 1) 55%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+article {
+  display: flex;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+h3 {
+  margin: 0.4rem;
+}
+
+footer {
+  color: white;
+  display: grid;
+  place-items: center;
+  background-color: black;
+}
