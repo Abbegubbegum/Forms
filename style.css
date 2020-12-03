@@ -41,9 +41,17 @@ h3 {
   margin: 0.4rem;
 }
 
+button {
+  margin: 1rem;
+}
+
 footer {
   color: white;
   display: grid;
   place-items: center;
   background-color: black;
+}
+
+.invisible {
+  display: none;
 }
