@@ -11,9 +11,7 @@ function enterQuiz()
 
     let name = document.querySelector("input[type='text']").value;
 
-    if (name === "")
-    {
-    } else
+    if (name !== "")
     {
         name = name + ", "
     }
